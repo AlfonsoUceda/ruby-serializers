@@ -1,0 +1,39 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (3.2.22.4)
+      i18n (~> 0.6, >= 0.6.4)
+      multi_json (~> 1.0)
+    bson (1.12.5)
+    bson_ext (1.12.5)
+      bson (~> 1.12.5)
+    i18n (0.7.0)
+    json (2.0.2)
+    middleware (0.1.0)
+    msgpack (1.0.2)
+    multi_json (1.12.1)
+    oj (2.17.5)
+    protobuf (3.6.12)
+      activesupport (>= 3.2)
+      middleware
+      thor
+      thread_safe
+    rake (11.3.0)
+    thor (0.19.1)
+    thread_safe (0.3.5)
+    yajl-ruby (1.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bson_ext
+  json
+  msgpack
+  oj
+  protobuf
+  rake
+  yajl-ruby
+
+BUNDLED WITH
+   1.13.6
